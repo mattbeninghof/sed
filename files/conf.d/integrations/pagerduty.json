@@ -1,6 +1,6 @@
 {
   "pagerduty": {
-    "service_key": "6c62375d9a9640a88276b3db0fe0cae3",
+    "service_key": "REPLACEME",
     "timeout": 10
   }
 }

@@ -1,8 +1,8 @@
 {
   "servicenow": {
-    "host": "dev25070.service-now.com",
+    "host": "REPLACE.service-now.com",
     "user": "admin",
-    "password": "v9uGBCby0tEO",
+    "password": "REPLACEME",
     "create_cmdb_ci": true,
     "cmdb_ci_table": "cmdb_ci_server",
     "incident_management": true,
