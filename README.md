@@ -25,8 +25,46 @@ tools, which are optional:
 
 ## Getting Started
 
+1. Clone this repository
+
+   ```
+   $ git clone git@github.com:sensu/sensu-enterprise-demo.git
+   ```
+
+2. Set environment variables containing your Sensu Enterprise repository
+   username and password. Optionally also configure your Vagrant provider (e.g
+   if you're using VirtualBox).
+
+   ```
+   $ cd sensu-enterprise-demo
+   $ export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
+   $ export SE_USER=REPLACEME
+   $ export SE_PASS=REPLACEME
+   ```
+
+   _NOTE: if you are using the `direnv` utility, you may edit the included
+   `.direnv` file with your Sensu Enterprise repository username and password,
+   and then run the `direnv allow` command to set the environment variables._
+
+3. Optionally edit the `/files/conf.d/integrations/*.json` configuration files
+   containing access keys and other account details for using the
+   [Slack][slack], [PagerDuty][pagerduty], and [ServiceNow][servicenow]
+   integrations – replacing the `REPLACEME` placeholders in various places in
+   those configuration files.
+
+4. Provision the virtual machine using Vagrant
+
+   ```
+   $ vagrant up
+   ```
+
+You're all done! 🎉
 
 
 [vagrant]: https://www.vagrantup.com/
 [vmware-fusion]: https://www.vmware.com/products/fusion.html
 [vagrant-vmware]: https://www.vagrantup.com/vmware/index.html
+[direnv]: https://direnv.net/
+[slack]: https://docs.sensu.io/sensu-enterprise/latest/integrations/slack/
+[pagerduty]: https://docs.sensu.io/sensu-enterprise/latest/integrations/pagerduty/
+[servicenow]: https://docs.sensu.io/sensu-enterprise/latest/integrations/servicenow/
