@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "http_poller": {
+      "command": "/usr/lib64/nagios/plugins/check_http -H :::poll_host|name::: -u :::poll_path|/::: -N",
+      "interval": 10,
+      "subscribers": [
+        "roundrobin:vmware-demo-poller"
+      ],
+      "aggregate": ":::poll_aggregate|default_http_poller:::",
+      "proxy_requests": {
+        "client_attributes": {
+          "keepalives": false,
+          "poll_http": true
+        }
+      }
+    }
+  }
+}

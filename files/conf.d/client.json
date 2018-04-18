@@ -1,0 +1,17 @@
+{
+  "client": {
+    "name": "sensu-enterprise-demo",
+    "environment": "demo",
+    "socket": {
+      "bind": "0.0.0.0",
+      "port": 3030
+    },
+    "subscriptions": [
+      "demo",
+      "webserver",
+      "roundrobin:proxy-request-poller",
+      "roundrobin:us-west-1-poller",
+      "roundrobin:vmware-demo-poller"
+    ]
+  }
+}

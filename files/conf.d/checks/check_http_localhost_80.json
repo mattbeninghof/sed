@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "check_http_localhost_80": {
+      "command": "/usr/lib64/nagios/plugins/check_http -H localhost -N",
+      "interval": 10,
+      "subscribers": ["demo"]
+    }
+  }
+}

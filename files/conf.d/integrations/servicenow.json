@@ -1,0 +1,12 @@
+{
+  "servicenow": {
+    "host": "dev25070.service-now.com",
+    "user": "admin",
+    "password": "v9uGBCby0tEO",
+    "create_cmdb_ci": true,
+    "cmdb_ci_table": "cmdb_ci_server",
+    "incident_management": true,
+    "incident_table": "incident",
+    "timeout": 10
+  }
+}
