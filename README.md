@@ -11,11 +11,17 @@ Enterprise versions based on Sensu Core 1.x._
 
 ## Prerequisites
 
-The following tools will need to be installed on your local workstation:
+The following tools are required to be installed on your local workstation to
+run this demo:
 
 1. [Vagrant][vagrant]
 2. [VMware Fusion][vmware-fusion] (recommended)
 3. [VMware Fusion provider][vagrant-vmware] for Vagrant
+
+Some additional configuration has also been provided for use with the following
+tools, which are optional:
+
+1. [direnv][direnv]
 
 ## Getting Started
 
