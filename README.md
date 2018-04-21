@@ -36,7 +36,7 @@ tools, which are optional:
    if you're using VirtualBox).
 
    ```
-   $ cd sensu-enterprise-demo
+   $ cd sed
    $ export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
    $ export SE_USER=REPLACEME
    $ export SE_PASS=REPLACEME
