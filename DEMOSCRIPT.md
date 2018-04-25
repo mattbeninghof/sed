@@ -103,7 +103,26 @@ Once in the machine, start creating inserts into the check:
 $ echo '{"name": "ClientsCheck", "status": 0, "output": "Everything is ok! Om...."}' | nc localhost 3030
 ```
 
+**Show Agent configuration**
 
+Vagrant ssh into the machine:
+
+```
+$ vagrant ssh
+------------------------
+$ cd /etc/sensu/conf.d
+$ cat client.json
+
+```
+
+**Show Registration/Deregistration**
+
+Lorem ipsum dolor sit amet:
+
+```
+$ 
+
+```
 
 ## FIN
 
