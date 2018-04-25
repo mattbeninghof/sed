@@ -8,9 +8,9 @@ larger demo, or as a baseline for a demo/discovery.  Please see the README.md
 file for systems setup.
 
 _NOTE: this configuration repository may be used for provisioning Sensu
-Enterprise versions based on Sensu Core 1.x._
+Enterprise versions based on Sensu Core 1.x.
 
-*Have an open instance of Sensu open to 0.0.0.0:3000 and [Sensu.io][Sensu.io] before starting the demo.*
+Have an open instance of Sensu open to 0.0.0.0:3000 and [Sensu.io][Sensu.io] before starting the demo._
 
 Some additional configuration has also been provided for use with the following
 tools, which are optional:
@@ -39,11 +39,16 @@ and then outline the proposed agenda_
 
 1. What is Sensu? - *"Total visibility, from the server closet to the serverless cloud future."* **or** *"Monitoring wherever you have compute."*
 
+**From [WHAT IS SENSU][WHATISSENSU] **
+>>Sensu is an infrastructure and application monitoring and telemetry solution. Sensu provides a framework for monitoring infrastructure, service & application health, and business KPIs. Sensu is specifically designed to solve monitoring challenges introduced by modern infrastructure platforms with a mix of static, dynamic, and ephemeral infrastructure at scale (i.e. public, private, and hybrid clouds).
+
+
 2. Build the 5%, not the 95%
 
  **From Sensu.io:**
 >>"Sensu allows engineering and operations teams to consolidate existing monitoring tools without sacrificing the interfaces they depend upon (e.g. Nagios plugins, StatsD libraries, Prometheus exporters, and more). Sensu is a framework for composing the unique monitoring solution your organization needs today, while simple and developer-friendly APIs ensure compatibility for the requirements of tomorrow."
 
+**By providing a platform to build upon, Sensu enables you to focus on what to monitor and measure, rather than how.**
 
   * Sensu works with:
     *  Bare metal servers
@@ -95,7 +100,7 @@ $ vagrant ssh
 Once in the machine, start creating inserts into the check:
 
 ```
-$ echo '{"name": "ClientsCheck", "status": 0, "output": "Everything is ok! Om...."}'
+$ echo '{"name": "ClientsCheck", "status": 0, "output": "Everything is ok! Om...."}' | nc localhost 3030
 ```
 
 
@@ -114,3 +119,4 @@ $ echo '{"name": "ClientsCheck", "status": 0, "output": "Everything is ok! Om...
 [ServiceNow]: https://www.servicenow.com/
 [Slack]: https://slack.com/
 [Sensu.io]: https://sensu.io/
+[WHATISSENSU]: https://docs.sensu.io/sensu-core/1.3/overview/what-is-sensu/#benefits
