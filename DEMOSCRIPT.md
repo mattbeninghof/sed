@@ -45,7 +45,7 @@ and then outline the proposed agenda_
 
 2. Build the 5%, not the 95%
 
- **From Sensu.io:**
+ **From [Sensu.io:][Sensu.io]**
 >>"Sensu allows engineering and operations teams to consolidate existing monitoring tools without sacrificing the interfaces they depend upon (e.g. Nagios plugins, StatsD libraries, Prometheus exporters, and more). Sensu is a framework for composing the unique monitoring solution your organization needs today, while simple and developer-friendly APIs ensure compatibility for the requirements of tomorrow."
 
 **By providing a platform to build upon, Sensu enables you to focus on what to monitor and measure, rather than how.**
