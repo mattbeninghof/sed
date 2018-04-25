@@ -68,4 +68,4 @@ You're all done! 🎉
 [slack]: https://docs.sensu.io/sensu-enterprise/latest/integrations/slack/
 [pagerduty]: https://docs.sensu.io/sensu-enterprise/latest/integrations/pagerduty/
 [servicenow]: https://docs.sensu.io/sensu-enterprise/latest/integrations/servicenow/
-# sed
+
