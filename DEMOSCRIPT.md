@@ -8,9 +8,9 @@ larger demo, or as a baseline for a demo/discovery.  Please see the README.md
 file for systems setup.
 
 _NOTE: this configuration repository may be used for provisioning Sensu
-Enterprise versions based on Sensu Core 1.x.
+Enterprise versions based on Sensu Core 1.x._
 
-Have an open instance of Sensu open to 0.0.0.0:3000 and [Sensu.io][Sensu.io] before starting the demo._
+*Have an open instance of Sensu open to 0.0.0.0:3000 and [Sensu.io][Sensu.io] before starting the demo.*
 
 Some additional configuration has also been provided for use with the following
 tools, which are optional:
